@@ -11,6 +11,6 @@ This repository tracks my daily learning progress in:
 
 ## 📅 Daily Log
 
--Flask applications (WSGI , Jinja2)
--GET, POST
--Variable rule, jinja2 template engine, learned building url (request, redirect, url_for)
+- Flask applications (WSGI , Jinja2)
+- GET, POST
+- Variable rule, jinja2 template engine, learned building url (request, redirect, url_for)
