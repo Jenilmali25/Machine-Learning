@@ -15,3 +15,4 @@ This repository tracks my daily learning progress in:
 - GET, POST
 - Variable rule, jinja2 template engine, learned building url (request, redirect, url_for)
 - Modified from Jenilmali255
+- delete this
