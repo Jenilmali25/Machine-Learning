@@ -14,3 +14,5 @@ This repository tracks my daily learning progress in:
 - Flask applications (WSGI , Jinja2)
 - GET, POST
 - Variable rule, jinja2 template engine, learned building url (request, redirect, url_for)
+- Modified from Jenilmali255
+- delete this
