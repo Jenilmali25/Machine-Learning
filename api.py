@@ -43,8 +43,22 @@ def create():
         if not request.json or not "name" in request.json:
              return jsonify({"error":"item not found"})
         new_item={
-             
+             "name":data[-1]["name"]+" Prakash Kumar" if data else 1,
+             "age":request.json["age"]
         }
+        data.append(new_item)
+        return jsonify(new_item)
+
+#put update an existing item
+@app.route('/items/<int:name>', methods=['put'])
+def update(name):
+    itemm=""
+    for item in data:
+         if item["name"]==name:
+            itemm=item
+            break
+    if item is None:
+        return jsonify({"error":"element not found"})
 
 if __name__ == "__main__":
     app.run(debug=True)
