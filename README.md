@@ -15,3 +15,4 @@ This repository tracks my daily learning progress in:
 - GET, POST
 - Variable rule, jinja2 template engine, learned building url (request, redirect, url_for)
 - learned push put post get delete ....but still confusingn have to try once more !!!
+- Streamlit (text_input, slider, selectbox, file_uploader)
